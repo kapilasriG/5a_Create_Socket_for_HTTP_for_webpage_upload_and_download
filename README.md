@@ -19,9 +19,9 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 6.Stop the program
 <BR>
 ## Program 
-```
-SERVER
 
+SERVER
+```
 import socket
 
 s = socket.socket()
@@ -51,9 +51,9 @@ while True:
 
     c.send(response.encode())
     c.close()
-
+```
 CLIENT
-
+```
 import socket
 
 s = socket.socket()
